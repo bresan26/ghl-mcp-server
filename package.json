@@ -1,0 +1,18 @@
+{
+    "name": "ghl-mcp-server",
+    "version": "1.0.0",
+    "description": "MCP Server for Go High Level - NOVOIDEAS",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+          "start": "node index.js"
+    },
+    "engines": {
+          "node": ">=18.0.0"
+    },
+    "dependencies": {
+          "@modelcontextprotocol/sdk": "^1.12.0",
+          "express": "^4.19.0",
+          "zod": "^3.23.0"
+    }
+}
